@@ -20,8 +20,8 @@ public class StartScanApplication extends Application {
     public void start(Stage primaryStage) throws IOException {
         FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("main-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 1000, 600);
-        primaryStage.setTitle(" Android/iOS 扫描工具 ");
-        primaryStage.getIcons().add(new Image("img/ico.png"));
+        primaryStage.setTitle(" Android/iOS/HarmonyNext 扫描工具 ");
+        primaryStage.getIcons().add(new Image("img/icon.png"));
         primaryStage.setScene(scene);
         primaryStage.setOnCloseRequest(new EventHandler<WindowEvent>() {
             @Override
